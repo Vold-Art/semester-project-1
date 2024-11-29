@@ -32,6 +32,7 @@ header {
     color: #FFFFFF;
 }
 
+
 .logo-main {
     display: flex;
     align-items: center;
@@ -167,7 +168,7 @@ nav a {
 /* Search Bar */
 
 input {
-    width: 15%;
+    width: 12.5%;
     position: absolute;
     top: 3.40625rem;
     right: 2.6875rem;
