@@ -32,7 +32,7 @@ header {
     color: #FFFFFF;
 }
 
-.logo-head {
+.logo-main {
     display: flex;
     align-items: center;
     margin: auto;
@@ -164,4 +164,28 @@ nav a {
     padding-left: 2.6875rem;
 }
 
+/* Search Bar */
 
+input {
+    width: 15%;
+    position: absolute;
+    top: 3.40625rem;
+    right: 2.6875rem;
+    font-family: "Noto Sans";
+    font-size: 1.5rem;
+    color:#474747;
+    border: 0;
+    background-color: #E9E9E9;
+    border-radius: 16px;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+input::placeholder {
+    font-style: italic;
+  }
+
+input:focus {
+    outline: none;
+  }
