@@ -66,7 +66,7 @@ a > img {
 nav {
     max-width: 400px;
     top: 150px;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif Display";
     font-weight: 700;
     font-size: 1.5rem;
     position: absolute;
@@ -191,3 +191,6 @@ input::placeholder {
 input:focus {
     outline: none;
   }
+
+  /* Footer */
+
