@@ -18,8 +18,8 @@ nav,
 
 .fa-bars {
     position: absolute;
-    top: 2.6875rem;
-    left: 2.6875rem;
+    top: 3.1875rem;
+    left: 3.1875rem;
 }
 
 header {
@@ -28,7 +28,7 @@ header {
     display: flex;
     align-items: center;
     background: #474747;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #FFFFFF;
 }
 
@@ -71,7 +71,7 @@ nav {
     font-size: 1.5rem;
     position: absolute;
     background: #474747;
-    padding-right: 5rem;
+    padding-right: 3.1875rem;
 }
 
 nav a {
@@ -83,86 +83,86 @@ nav a {
     display: flex;
     width: 100%;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 3.1875rem;
 }
 
 #explore-link {
-    margin-left: 4rem;
+    margin-left: 3.1875rem;
 }
 
 #explore-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #FF0000;
-    padding-left: 2.6875rem;
+    padding-left: 3.1875rem;
 }
 
 .exhibition {
     display: flex;
     width: 100%;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 3.1875rem;
 }
 
 #exhibition-link {
-    margin-left: 4rem;
+    margin-left: 3.1875rem;
 }
 
 #exhibition-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #00C2FC;
-    padding-left: 2.6875rem;
+    padding-left: 3.1875rem;
 }
 
 .special {
     display: flex;
     width: 100%;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 3.1875rem;
 }
 
 #special-link {
-    margin-left: 4rem;
+    margin-left: 3.1875rem;
 }
 
 #special-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #FF8F00;
-    padding-left: 2.6875rem;
+    padding-left: 3.1875rem;
 }
 
 .visit {
     display: flex;
     width: 100%;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 3.1875rem;
 }
 
 #visit-link {
-    margin-left: 4rem;
+    margin-left: 3.1875rem;
 }
 
 #visit-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #21D69C;
-    padding-left: 2.6875rem;
+    padding-left: 3.1875rem;
 }
 
 .involved {
     display: flex;
     width: 100%;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3.1875rem;
+    padding-bottom: 3.1875rem;
 }
 
 #involved-link {
-    margin-left: 4rem;
+    margin-left: 3.1875rem;
 }
 
 #invoved-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #BF3FFF;
-    padding-left: 2.6875rem;
+    padding-left: 3.1875rem;
 }
 
 /* Search Bar */
@@ -171,7 +171,7 @@ input {
     width: 12.5%;
     position: absolute;
     top: 3.40625rem;
-    right: 2.6875rem;
+    right: 3.1875rem;
     font-family: "Noto Sans";
     font-size: 1.5rem;
     color:#474747;
