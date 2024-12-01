@@ -72,6 +72,7 @@ nav {
     position: absolute;
     background: #474747;
     padding-right: 3.1875rem;
+    border-radius: 0px 0 16px 0px;
 }
 
 nav a {
