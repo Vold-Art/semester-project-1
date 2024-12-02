@@ -40,13 +40,13 @@ header {
 }
 
 #logo-img {
-    max-width: 100px;
+    max-width: 75px;
     margin: auto;
 }
 
 #logo-txt {
     font-family: "Noto Serif Display";
-    font-size: 64px;
+    font-size: 3rem;
     font-weight: 400;
     color: #FFFFFF;
     text-decoration: none;
