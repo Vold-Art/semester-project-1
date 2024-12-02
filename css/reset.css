@@ -143,9 +143,9 @@ a>img {
 
     #search-mobile-tablet {
         display: flex;
-        width: 20.21875rem;
+        width: 17.09375rem;
         font-family: "Noto Sans";
-        font-size: 1rem;
+        font-size: 0.5rem;
         color: #474747;
         border: 0;
         background-color: #E9E9E9;
@@ -178,7 +178,7 @@ nav {
 @media (max-width: 1300px) {
 
     nav {
-        max-width: 400px;
+        max-width: 350px;
         top: 107.5px;
         font-size: 1rem;
         padding-right: 1.59375rem;
