@@ -1,3 +1,5 @@
+@import url("./variables.css");
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -17,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     background: #474747;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #FFFFFF;
 }
 
@@ -89,7 +91,7 @@ nav,
 }
 
 #logo-txt {
-    font-family: "Noto Serif Display"Georgia, 'Times New Roman', Times, serif;
+    font-family: "Noto Serif Display", Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     color: #FFFFFF;
     text-decoration: none;
@@ -166,7 +168,7 @@ a>img {
 nav {
     max-width: 400px;
     top: 150px;
-    font-family: "Noto Serif Display"Georgia, 'Times New Roman', Times, serif;
+    font-family: "Noto Serif Display", Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
     font-size: 1.5rem;
     position: absolute;
