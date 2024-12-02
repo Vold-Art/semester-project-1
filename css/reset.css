@@ -1,15 +1,41 @@
 *, *:before, *:after {
     box-sizing: inherit;
-  }
-  
-  body {
+}
+
+body {
     box-sizing: border-box;
     min-height: 100vh;
     margin: 0;
     background: #E9E9E9;
-  }
-  
-  /* Navigation Bar */  
+}
+
+/* Navigation Bar */
+
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background: #474747;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1300px) {
+
+    header {
+        height: 107.5px;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+
+    header {
+        height: 75px;
+        font-size: 2rem;
+    }
+}
 
 nav,
 #menu-checkbox {
@@ -22,16 +48,21 @@ nav,
     left: 3.1875rem;
 }
 
-header {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    background: #474747;
-    font-size: 3rem;
-    color: #FFFFFF;
+@media (max-width: 1300px) {
+
+    .fa-bars {
+        top: 2.390625rem;
+        left: 2.390625rem;
+    }
 }
 
+@media (max-width: 750px) {
+
+    .fa-bars {
+        top: 1.59375rem;
+        left: 1.59375rem;
+    }
+}
 
 .logo-main {
     display: flex;
@@ -40,25 +71,58 @@ header {
 }
 
 #logo-img {
-    max-width: 75px;
-    margin: auto;
+    max-width: 4.5rem;
+}
+
+@media (max-width: 1300px) {
+
+    #logo-img {
+        max-width: 3.75rem;
+    }
+}
+
+@media (max-width: 750px) {
+
+    #logo-img {
+        max-width: 3rem;
+    }
 }
 
 #logo-txt {
     font-family: "Noto Serif Display";
-    font-size: 3rem;
     font-weight: 400;
     color: #FFFFFF;
     text-decoration: none;
 }
 
-a > img {
+@media (max-width: 1300px) {
+
+    #logo-txt {
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 750px) {
+
+    #logo-txt {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #logo-txt {
+        display: none;
+    }
+}
+
+a>img {
     vertical-align: middle;
 }
 
 /* Hamburger Menu */
 
-#menu-checkbox:checked ~ nav {
+#menu-checkbox:checked~nav {
     display: flex;
     flex-direction: column;
 }
@@ -80,14 +144,27 @@ nav a {
     text-decoration: none;
 }
 
-.explore {
+.explore,
+.exhibition,
+.special, 
+.visit,
+.involved {
     display: flex;
     width: 100%;
     align-items: center;
     padding-top: 3.1875rem;
 }
 
-#explore-link {
+.involved {
+    padding-top: 3.1875rem;
+    padding-bottom: 3.1875rem;
+}
+
+#explore-link,
+#exhibition-link,
+#special-link,
+#visit-link,
+#involved-link {
     margin-left: 3.1875rem;
 }
 
@@ -97,32 +174,10 @@ nav a {
     padding-left: 3.1875rem;
 }
 
-.exhibition {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    padding-top: 3.1875rem;
-}
-
-#exhibition-link {
-    margin-left: 3.1875rem;
-}
-
 #exhibition-icon {
     font-size: 3rem;
     color: #00C2FC;
     padding-left: 3.1875rem;
-}
-
-.special {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    padding-top: 3.1875rem;
-}
-
-#special-link {
-    margin-left: 3.1875rem;
 }
 
 #special-icon {
@@ -131,33 +186,10 @@ nav a {
     padding-left: 3.1875rem;
 }
 
-.visit {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    padding-top: 3.1875rem;
-}
-
-#visit-link {
-    margin-left: 3.1875rem;
-}
-
 #visit-icon {
     font-size: 3rem;
     color: #21D69C;
     padding-left: 3.1875rem;
-}
-
-.involved {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    padding-top: 3.1875rem;
-    padding-bottom: 3.1875rem;
-}
-
-#involved-link {
-    margin-left: 3.1875rem;
 }
 
 #invoved-icon {
@@ -175,7 +207,7 @@ input {
     right: 3.1875rem;
     font-family: "Noto Sans";
     font-size: 1.5rem;
-    color:#474747;
+    color: #474747;
     border: 0;
     background-color: #E9E9E9;
     border-radius: 16px;
@@ -186,11 +218,24 @@ input {
 
 input::placeholder {
     font-style: italic;
-  }
+}
 
 input:focus {
     outline: none;
-  }
+}
 
-  /* Footer */
+@media (max-width: 1300px) {
 
+    input {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+
+    input {
+        display: none;
+    }
+}
+
+/* Footer */
