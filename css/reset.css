@@ -317,6 +317,20 @@ nav a {
 	transform: translate(-50%, -50%) scale(1.4);
 }
 
+@media (max-width: 1300px) {
+
+    .hero-section {
+        height: 225px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .hero-section {
+        height: 150px;
+    }
+}
+
 /* Footer */
 
 footer {
