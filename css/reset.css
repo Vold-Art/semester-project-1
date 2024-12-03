@@ -147,7 +147,7 @@ a>img {
         display: flex;
         width: 17.09375rem;
         font-family: "Noto Sans";
-        font-size: 0.5rem;
+        font-size: 1rem;
         color: #474747;
         border: 0;
         background-color: #E9E9E9;
@@ -299,3 +299,87 @@ nav a {
 }
 
 /* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #474747;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    font-family: "Noto Serif Display", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+@media (max-width: 1300px) {
+
+    .footer-nav {
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 750px) {
+    
+    .footer-nav {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+.column-nav {
+    flex: 1;
+    padding: 1rem;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.column-socials {
+    padding: 1rem;
+}
+
+.footer-txt {
+    display: flex;
+    justify-content: center;
+    font-family: "Noto Sans";
+    text-align: center;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footer-txt p {
+    margin: 0;
+}
