@@ -343,6 +343,7 @@ footer a {
 @media (max-width: 750px) {
     
     .footer-nav {
+        flex-direction: column;
         margin-left: 1rem;
         margin-right: 1rem;
     }
