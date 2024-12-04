@@ -69,7 +69,7 @@ h1 {
         max-width: 600px;
         border-radius: 0.5rem;
     }
-    
+
     .vision-text {
         font-size: 0.5rem;
         line-height: 1rem;
@@ -78,6 +78,293 @@ h1 {
         margin-top: 1rem;
         margin-bottom: 1rem;
         max-width: 600px;
+    }
+
+}
+
+/* Nav Panels Section */
+
+/* Panel 1 */
+
+.panel-1-image {
+    align-self: center;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    max-width: 300px;
+    margin-bottom: -4px;
+}
+
+.panel-1-text a {
+    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 2rem;
+    text-decoration: none;
+    color: #474747;
+}
+
+.panel-1-text a:hover {
+    text-decoration: underline;
+}
+
+.panel-1-text a:active {
+    text-decoration: underline;
+}
+
+.panel-1-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.25);
+    height: 200px;
+    border-radius: 0rem 0rem 1rem 1rem;
+    max-width: 300px;
+}
+
+@media (max-width: 1300px) {
+
+    .panel-1-image {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .panel-1-text a {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .panel-1-text {
+        height: 100px;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+    }
+
+}
+
+/* Panel 2 */
+
+.panel-2-image {
+    align-self: center;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    max-width: 300px;
+    margin-bottom: -4px;
+}
+
+.panel-2-text a {
+    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 2rem;
+    text-decoration: none;
+    color: #474747;
+}
+
+.panel-2-text a:hover {
+    text-decoration: underline;
+}
+
+.panel-2-text a:active {
+    text-decoration: underline;
+}
+
+.panel-2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 193, 252, 0.25);
+    height: 200px;
+    border-radius: 0rem 0rem 1rem 1rem;
+    max-width: 300px;
+}
+
+@media (max-width: 1300px) {
+
+    .panel-2-image {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .panel-2-text a {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .panel-2-text {
+        height: 100px;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+    }
+
+}
+
+/* Panel 3 */
+
+.panel-3-image {
+    align-self: center;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    max-width: 300px;
+    margin-bottom: -4px;
+}
+
+.panel-3-text a {
+    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 2rem;
+    text-decoration: none;
+    color: #474747;
+}
+
+.panel-3-text a:hover {
+    text-decoration: underline;
+}
+
+.panel-3-text a:active {
+    text-decoration: underline;
+}
+
+.panel-3-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 143, 0, 0.25);
+    height: 200px;
+    border-radius: 0rem 0rem 1rem 1rem;
+    max-width: 300px;
+}
+
+@media (max-width: 1300px) {
+
+    .panel-3-image {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .panel-3-text a {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .panel-3-text {
+        height: 100px;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+    }
+
+}
+
+/* Panel 4 */
+
+.panel-4-image {
+    align-self: center;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    max-width: 300px;
+    margin-bottom: -4px;
+}
+
+.panel-4-text a {
+    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 2rem;
+    text-decoration: none;
+    color: #474747;
+}
+
+.panel-4-text a:hover {
+    text-decoration: underline;
+}
+
+.panel-4-text a:active {
+    text-decoration: underline;
+}
+
+.panel-4-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(140, 206, 0, 0.25);
+    height: 200px;
+    border-radius: 0rem 0rem 1rem 1rem;
+    max-width: 300px;
+}
+
+@media (max-width: 1300px) {
+
+    .panel-4-image {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .panel-4-text a {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .panel-4-text {
+        height: 100px;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+    }
+
+}
+
+/* Panel 5 */
+
+.panel-5-image {
+    align-self: center;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    max-width: 300px;
+    margin-bottom: -4px;
+}
+
+.panel-5-text a {
+    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 2rem;
+    text-decoration: none;
+    color: #474747;
+}
+
+.panel-5-text a:hover {
+    text-decoration: underline;
+}
+
+.panel-5-text a:active {
+    text-decoration: underline;
+}
+
+.panel-5-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(191, 63, 255, 0.25);
+    height: 200px;
+    border-radius: 0rem 0rem 1rem 1rem;
+    max-width: 300px;
+}
+
+@media (max-width: 1300px) {
+
+    .panel-5-image {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .panel-5-text a {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .panel-5-text {
+        height: 100px;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
     }
 
 }
