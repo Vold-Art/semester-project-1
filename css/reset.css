@@ -247,7 +247,7 @@ nav a {
 
 #visit-icon {
     font-size: 3rem;
-    color: #21D69C;
+    color: #8CCE00;
     padding-left: 3.1875rem;
 }
 
@@ -304,30 +304,23 @@ nav a {
 
 /* Hero Section */
 
-.hero-section {
-	width: 100%;
-	height: 300px;
-	overflow: hidden;
-	position: relative;
-}
-
 .hero-image {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%) scale(1);
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 40%;
 }
 
 @media (max-width: 1300px) {
 
-    .hero-section {
+    .hero-image {
         height: 225px;
     }
 }
 
 @media (max-width: 750px) {
 
-    .hero-section {
+    .hero-image {
         height: 150px;
     }
 }
@@ -377,7 +370,7 @@ footer a {
 }
 
 @media (max-width: 750px) {
-    
+
     .footer-nav {
         flex-direction: column;
         margin-left: 1rem;
