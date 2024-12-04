@@ -304,6 +304,10 @@ nav a {
 
 /* Hero Section */
 
+.hero-section {
+    height: 300px;
+}
+
 .hero-image {
     width: 100%;
     height: 300px;
@@ -313,6 +317,10 @@ nav a {
 
 @media (max-width: 1300px) {
 
+    .hero-section {
+        height: 225px;
+    }
+    
     .hero-image {
         height: 225px;
     }
@@ -320,6 +328,10 @@ nav a {
 
 @media (max-width: 750px) {
 
+    .hero-section {
+        height: 150px;
+    }
+    
     .hero-image {
         height: 150px;
     }
@@ -328,7 +340,7 @@ nav a {
 /* Footer */
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     background: #474747;
