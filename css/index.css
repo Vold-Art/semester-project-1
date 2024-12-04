@@ -84,7 +84,7 @@ h1 {
 
 /* Nav Panels Section */
 
-.nav-panels-section {
+.nav-panels-section-1 {
     max-width: 1000px;
     margin: auto;
     padding-bottom: 2rem;
@@ -95,24 +95,41 @@ h1 {
     ;
 }
 
+.nav-panels-section-2 {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "panel-4 panel-5"
+    ;
+}
+
 .panel-1 {
     grid-area: panel-1;
+    justify-self: start;
 }
 
 .panel-2 {
     grid-area: panel-2;
+    justify-self: center;
 }
 
 .panel-3 {
     grid-area: panel-3;
+    justify-self: end;
 }
 
 .panel-4 {
     grid-area: panel-4;
+    justify-self: end;
 }
 
 .panel-5 {
     grid-area: panel-5;
+    justify-self: start;
 }
 
 /* Panel 1 */
