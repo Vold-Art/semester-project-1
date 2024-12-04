@@ -11,6 +11,14 @@ body {
     background: #E9E9E9;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 /* Navigation Bar */
 
 header {
@@ -320,7 +328,7 @@ nav a {
     .hero-section {
         height: 225px;
     }
-    
+
     .hero-image {
         height: 225px;
     }
@@ -331,7 +339,7 @@ nav a {
     .hero-section {
         height: 150px;
     }
-    
+
     .hero-image {
         height: 150px;
     }
