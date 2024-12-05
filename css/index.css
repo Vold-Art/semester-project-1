@@ -90,8 +90,8 @@ h1 {
     padding-bottom: 2rem;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-template-areas: 
-    "panel-1 panel-2 panel-3"
+    grid-template-areas:
+        "panel-1 panel-2 panel-3"
     ;
 }
 
@@ -101,8 +101,8 @@ h1 {
     padding-bottom: 2rem;
     display: grid;
     grid-template-columns: 47.5% 5% 47.5%;
-    grid-template-areas: 
-    "panel-4 . panel-5"
+    grid-template-areas:
+        "panel-4 . panel-5"
     ;
 }
 
@@ -131,9 +131,19 @@ h1 {
     justify-self: start;
 }
 
-/* Panel 1 */
+@media (max-width: 1300px) {
 
-.panel-1-image {
+    
+}
+
+@media (max-width: 750px) {
+
+   
+}
+
+/* Panels */
+
+.panel-image {
     align-self: center;
     object-fit: cover;
     height: 200px;
@@ -142,7 +152,7 @@ h1 {
     margin-bottom: -4px;
 }
 
-.panel-1-text a {
+.panel-text a {
     font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     font-weight: 800;
@@ -152,264 +162,55 @@ h1 {
     color: #474747;
 }
 
-.panel-1-text a:hover {
+.panel-text a:hover {
     text-decoration: underline;
 }
 
-.panel-1-text a:active {
+.panel-text a:active {
     text-decoration: underline;
 }
 
-.panel-1-text {
+.panel-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.25);
     height: 200px;
     border-radius: 0rem 0rem 1rem 1rem;
     max-width: 300px;
 }
 
-@media (max-width: 1300px) {
-
-    .panel-1-image {
-        border-radius: 0.5rem 0.5rem 0rem 0rem;
-    }
-
-    .panel-1-text a {
-        font-size: 1rem;
-        margin: 1rem;
-    }
-
-    .panel-1-text {
-        height: 100px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem;
-    }
-
+#panel-1-text {
+    background-color: rgba(255, 0, 0, 0.25)
 }
 
-/* Panel 2 */
-
-.panel-2-image {
-    align-self: center;
-    object-fit: cover;
-    height: 200px;
-    border-radius: 1rem 1rem 0rem 0rem;
-    max-width: 300px;
-    margin-bottom: -4px;
-}
-
-.panel-2-text a {
-    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-align: center;
-    margin: 2rem;
-    text-decoration: none;
-    color: #474747;
-}
-
-.panel-2-text a:hover {
-    text-decoration: underline;
-}
-
-.panel-2-text a:active {
-    text-decoration: underline;
-}
-
-.panel-2-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#panel-2-text {
     background: rgba(0, 193, 252, 0.25);
-    height: 200px;
-    border-radius: 0rem 0rem 1rem 1rem;
-    max-width: 300px;
 }
 
-@media (max-width: 1300px) {
-
-    .panel-2-image {
-        border-radius: 0.5rem 0.5rem 0rem 0rem;
-    }
-
-    .panel-2-text a {
-        font-size: 1rem;
-        margin: 1rem;
-    }
-
-    .panel-2-text {
-        height: 100px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem;
-    }
-
-}
-
-/* Panel 3 */
-
-.panel-3-image {
-    align-self: center;
-    object-fit: cover;
-    height: 200px;
-    border-radius: 1rem 1rem 0rem 0rem;
-    max-width: 300px;
-    margin-bottom: -4px;
-}
-
-.panel-3-text a {
-    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-align: center;
-    margin: 2rem;
-    text-decoration: none;
-    color: #474747;
-}
-
-.panel-3-text a:hover {
-    text-decoration: underline;
-}
-
-.panel-3-text a:active {
-    text-decoration: underline;
-}
-
-.panel-3-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#panel-3-text {
     background: rgba(255, 143, 0, 0.25);
-    height: 200px;
-    border-radius: 0rem 0rem 1rem 1rem;
-    max-width: 300px;
 }
 
-@media (max-width: 1300px) {
-
-    .panel-3-image {
-        border-radius: 0.5rem 0.5rem 0rem 0rem;
-    }
-
-    .panel-3-text a {
-        font-size: 1rem;
-        margin: 1rem;
-    }
-
-    .panel-3-text {
-        height: 100px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem;
-    }
-
-}
-
-/* Panel 4 */
-
-.panel-4-image {
-    align-self: center;
-    object-fit: cover;
-    height: 200px;
-    border-radius: 1rem 1rem 0rem 0rem;
-    width: 300px; /* Issue with width here! */
-    margin-bottom: -4px;
-}
-
-.panel-4-text a {
-    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-align: center;
-    margin: 2rem;
-    text-decoration: none;
-    color: #474747;
-}
-
-.panel-4-text a:hover {
-    text-decoration: underline;
-}
-
-.panel-4-text a:active {
-    text-decoration: underline;
-}
-
-.panel-4-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#panel-4-text {
     background: rgba(140, 206, 0, 0.25);
-    height: 200px;
-    border-radius: 0rem 0rem 1rem 1rem;
-    max-width: 300px;
 }
 
-@media (max-width: 1300px) {
-
-    .panel-4-image {
-        border-radius: 0.5rem 0.5rem 0rem 0rem;
-    }
-
-    .panel-4-text a {
-        font-size: 1rem;
-        margin: 1rem;
-    }
-
-    .panel-4-text {
-        height: 100px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem;
-    }
-
-}
-
-/* Panel 5 */
-
-.panel-5-image {
-    align-self: center;
-    object-fit: cover;
-    height: 200px;
-    border-radius: 1rem 1rem 0rem 0rem;
-    max-width: 300px;
-    margin-bottom: -4px;
-}
-
-.panel-5-text a {
-    font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-align: center;
-    margin: 2rem;
-    text-decoration: none;
-    color: #474747;
-}
-
-.panel-5-text a:hover {
-    text-decoration: underline;
-}
-
-.panel-5-text a:active {
-    text-decoration: underline;
-}
-
-.panel-5-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#panel-5-text {
     background: rgba(191, 63, 255, 0.25);
-    height: 200px;
-    border-radius: 0rem 0rem 1rem 1rem;
-    max-width: 300px;
 }
 
 @media (max-width: 1300px) {
 
-    .panel-5-image {
+    .panel-image {
         border-radius: 0.5rem 0.5rem 0rem 0rem;
     }
 
-    .panel-5-text a {
+    .panel-text a {
         font-size: 1rem;
         margin: 1rem;
     }
 
-    .panel-5-text {
+    .panel-text {
         height: 100px;
         border-radius: 0rem 0rem 0.5rem 0.5rem;
     }
