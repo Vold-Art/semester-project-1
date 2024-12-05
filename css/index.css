@@ -84,25 +84,16 @@ h1 {
 
 /* Nav Panels Section */
 
-.nav-panels-section-1 {
+.nav-panels {
     max-width: 1000px;
     margin: auto;
     padding-bottom: 2rem;
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: auto;
+    row-gap: 2rem;
     grid-template-areas:
-        "panel-1 panel-2 panel-3"
-    ;
-}
-
-.nav-panels-section-2 {
-    max-width: 1000px;
-    margin: auto;
-    padding-bottom: 2rem;
-    display: grid;
-    grid-template-columns: 47.5% 5% 47.5%;
-    grid-template-areas:
-        "panel-4 . panel-5"
+        "panel-1 panel-1 panel-2 panel-2 panel-3 panel-3"
+        ". panel-4 panel-4 panel-5 panel-5 ."
     ;
 }
 
@@ -123,12 +114,12 @@ h1 {
 
 .panel-4 {
     grid-area: panel-4;
-    justify-self: end;
+    justify-self: start;
 }
 
 .panel-5 {
     grid-area: panel-5;
-    justify-self: start;
+    justify-self: end;
 }
 
 @media (max-width: 1300px) {
