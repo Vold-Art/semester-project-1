@@ -82,6 +82,14 @@ h1 {
 
 }
 
+@media (max-width: 750px) {
+
+    .h1, .vision-image, .vision-text {
+        max-width: 300px;
+    }
+   
+}
+
 /* Nav Panels Section */
 
 .nav-panels {
@@ -124,11 +132,45 @@ h1 {
 
 @media (max-width: 1300px) {
 
+    .nav-panels {
+        max-width: 600px;
+        grid-template-areas:
+            "panel-1 panel-1 panel-2 panel-2"
+            "panel-3 panel-3 panel-4 panel-4"
+            ". panel-5 panel-5 ."
+        ;
+    }
+
+    .panel-1, .panel-3 {
+        justify-self: start;
+    }
+    
+    .panel-2, .panel-4 {
+        justify-self: end;
+    }
+    
+    .panel-5 {
+        justify-self: center;
+    }
     
 }
 
 @media (max-width: 750px) {
 
+    .nav-panels {
+        max-width: 90%;
+        grid-template-areas:
+            "panel-1"
+            "panel-2"
+            "panel-3"
+            "panel-4"
+            "panel-5"
+        ;
+    }
+
+    .panel-1, .panel-3, .panel-2, .panel-4, .panel-5 {
+        justify-self: center;
+    }
    
 }
 
@@ -192,7 +234,9 @@ h1 {
 
 @media (max-width: 1300px) {
 
+
     .panel-image {
+        max-width: 275px;
         border-radius: 0.5rem 0.5rem 0rem 0rem;
     }
 
@@ -202,8 +246,21 @@ h1 {
     }
 
     .panel-text {
+        max-width: 275px;
         height: 100px;
         border-radius: 0rem 0rem 0.5rem 0.5rem;
     }
 
+}
+
+@media (max-width: 750px) {
+
+    .panel-image {
+        max-width: 300px;
+    } 
+
+    .panel-text {
+        max-width: 300px;
+    } 
+   
 }
