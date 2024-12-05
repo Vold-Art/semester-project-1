@@ -2,7 +2,7 @@
 
 @import url("../css/variables.css");
 
-#exhibition-link {
+#exhibition-link, #exhibition-link-2 {
     text-decoration: underline;
 }
 

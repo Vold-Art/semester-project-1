@@ -2,7 +2,7 @@
 
 @import url("../css/variables.css");
 
-#involved-link {
+#involved-link, #involved-link-2 {
     text-decoration: underline;
 }
 

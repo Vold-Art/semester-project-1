@@ -364,6 +364,7 @@ footer a {
     font-family: "Noto Serif Display", Georgia, 'Times New Roman', Times, serif;
     color: #FFFFFF;
     text-decoration: none;
+    text-align: center;
 }
 
 .footer-nav {
