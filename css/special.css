@@ -93,7 +93,7 @@ h1, h2 {
 
 @media (max-width: 750px) {
 
-    .h1, h2, .special-image, .special-text {
+    .h1, .h2, .special-image, .special-text {
         max-width: 300px;
     }
    
