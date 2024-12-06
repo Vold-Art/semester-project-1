@@ -24,7 +24,7 @@ h1, h2 {
     font-size: 1rem;
     color: #474747;
     text-align: center;
-    background-color: rgba(255, 0, 0, 0.25);
+    background: rgba(255, 143, 0, 0.25);
     padding: 2rem;
     border-radius: 1rem;
     width: 90%;
@@ -48,7 +48,7 @@ h1, h2 {
     font-size: 1rem;
     line-height: 2rem;
     color: #474747;
-    background-color: rgba(255, 0, 0, 0.25);
+    background: rgba(255, 143, 0, 0.25);
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 1rem;
     width: 90%;
@@ -98,3 +98,5 @@ h1, h2 {
     }
    
 }
+
+/* Special Panels */ /* Remember to copy text styling over here! */
