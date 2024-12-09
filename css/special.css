@@ -42,26 +42,6 @@ h1, h2 {
     max-width: 1000px;
 }
 
-.special-text {
-    align-self: center;
-    font-family: "Noto Sans";
-    font-size: 1rem;
-    line-height: 2rem;
-    color: #474747;
-    background: rgba(255, 143, 0, 0.25);
-    padding: 1rem 2rem 1rem 2rem;
-    border-radius: 1rem;
-    width: 90%;
-    max-width: 1000px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.special-text-bold {
-    font-weight: 800;
-    text-align: center;
-}
-
 @media (max-width: 1300px) {
 
     .h1, .h2 {
@@ -79,16 +59,6 @@ h1, h2 {
         border-radius: 0.5rem;
     }
 
-    .special-text {
-        font-size: 0.5rem;
-        line-height: 1rem;
-        padding: 0.5rem 1rem 0.5rem 1rem;
-        border-radius: 0.5rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        max-width: 600px;
-    }
-
 }
 
 @media (max-width: 750px) {
@@ -96,7 +66,140 @@ h1, h2 {
     .h1, .h2, .special-image, .special-text {
         max-width: 300px;
     }
+
+}
+
+/* Special Panels */
+
+.special-panels {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 2rem;
+    grid-template-areas:
+        "panel-1 panel-2 panel-3"
+    ;
+}
+
+.panel-1 {
+    grid-area: panel-1;
+    justify-self: start;
+}
+
+.panel-2 {
+    grid-area: panel-2;
+    justify-self: center;
+}
+
+.panel-3 {
+    grid-area: panel-3;
+    justify-self: end;
+}
+
+@media (max-width: 1300px) {
+
+    .special-panels {
+        max-width: 600px;
+        grid-template-areas:
+            "panel-1 panel-2"
+            "panel-3 panel-3"
+        ;
+    }
+    
+    .panel-2 {
+        justify-self: end;
+    }
+    
+    .panel-3 {
+        justify-self: center;
+    }
+    
+}
+
+@media (max-width: 750px) {
+
+    .special-panels {
+        max-width: 90%;
+        grid-template-areas:
+            "panel-1"
+            "panel-2"
+            "panel-3"
+        ;
+    }
+
+    .panel-1, .panel-2, .panel-3 {
+        justify-self: center;
+    }
    
 }
 
-/* Special Panels */ /* Remember to copy text styling over here! */
+/* Panels */
+
+.panel-image {
+    align-self: center;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    max-width: 300px;
+    margin-bottom: -4px;
+}
+
+.panel-text {
+    background: rgba(255, 143, 0, 0.25);
+    border-radius: 0rem 0rem 1rem 1rem;
+    max-width: 300px;
+}
+
+.header, .body {
+    font-family: "Noto Sans";
+    color: #474747;
+    font-size: 1rem;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    height: fit-content;
+    padding: 1.5rem;
+    margin: 0;
+}
+
+.header {
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+@media (max-width: 1300px) {
+
+
+    .panel-image {
+        max-width: 275px;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .header, .body {
+        line-height: 1rem;
+        font-size: 0.5rem;
+    }
+
+    .panel-text {
+        max-width: 275px;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .panel-image {
+        max-width: 300px;
+    } 
+
+    .panel-text {
+        max-width: 300px;
+    } 
+   
+}
