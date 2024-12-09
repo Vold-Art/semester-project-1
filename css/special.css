@@ -63,7 +63,7 @@ h1, h2 {
 
 @media (max-width: 750px) {
 
-    .h1, .h2, .special-image, .special-text {
+    .h1, .h2, .special-image {
         max-width: 300px;
     }
 
@@ -159,9 +159,6 @@ h1, h2 {
     color: #474747;
     font-size: 1rem;
     line-height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 300px;
     height: fit-content;
     padding: 1.5rem;
@@ -185,11 +182,16 @@ h1, h2 {
     .header, .body {
         line-height: 1rem;
         font-size: 0.5rem;
+        padding: 0.75rem;
     }
 
     .panel-text {
         max-width: 275px;
         border-radius: 0rem 0rem 0.5rem 0.5rem;
+    }
+
+    .header {
+        padding-bottom: 0;
     }
 
 }
