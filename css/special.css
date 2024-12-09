@@ -102,6 +102,8 @@ h1, h2 {
 
     .special-panels {
         max-width: 600px;
+        padding-bottom: 1rem;
+        row-gap: 1rem;
         grid-template-areas:
             "panel-1 panel-2"
             "panel-3 panel-3"

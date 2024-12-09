@@ -134,6 +134,8 @@ h1 {
 
     .nav-panels {
         max-width: 600px;
+        padding-bottom: 1rem;
+        row-gap: 1rem;
         grid-template-areas:
             "panel-1 panel-1 panel-2 panel-2"
             "panel-3 panel-3 panel-4 panel-4"
