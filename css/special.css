@@ -14,8 +14,14 @@
     margin: auto;
 }
 
-h1, h2 {
+h1, h2, .special-image {
     align-self: center;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 2rem
+}
+
+h1, h2 {
     font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     color: #474747;
@@ -23,33 +29,38 @@ h1, h2 {
     background: rgba(255, 143, 0, 0.25);
     padding: 2rem;
     border-radius: 1rem;
-    width: 90%;
-    max-width: 1000px;
-    margin: 2rem 0rem 2rem 0rem;
+    margin-bottom: 0rem
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .special-image {
-    align-self: center;
     object-fit: cover;
-    width: 90%;
-    height: 400px;
+    height: 300px;
     border-radius: 1rem;
-    max-width: 1000px;
 }
 
 @media (max-width: 1300px) {
 
+    h1, h2, .special-image {
+        max-width: 600px;
+        margin-top: 1rem;
+    }
+    
     h1, h2 {
         font-size: 1.25rem;
         padding: 1rem;
         border-radius: 0.5rem;
-        margin: 1rem 0rem 1rem 0rem;
-        max-width: 600px;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
     }
 
     .special-image {
         height: 200px;
-        max-width: 600px;
         border-radius: 0.5rem;
     }
 
@@ -133,19 +144,21 @@ h1, h2 {
 
 /* Panels */
 
+.panel-image, .panel-text {
+    max-width: 300px;
+}
+
 .panel-image {
     align-self: center;
     object-fit: cover;
     height: 200px;
     border-radius: 1rem 1rem 0rem 0rem;
-    max-width: 300px;
     margin-bottom: -4px;
 }
 
 .panel-text {
     background: rgba(255, 143, 0, 0.25);
     border-radius: 0rem 0rem 1rem 1rem;
-    max-width: 300px;
 }
 
 .header, .body {
@@ -155,28 +168,24 @@ h1, h2 {
     line-height: 2.5rem;
     max-width: 300px;
     height: fit-content;
-    padding: 1.5rem;
     margin: 0;
 }
 
 .header {
     font-weight: 800;
     text-align: center;
-    padding-bottom: 0;
+    padding: 2rem;
+}
+
+.body {
+    padding: 0rem 2rem 2rem 2rem;
 }
 
 @media (max-width: 1300px) {
 
-
     .panel-image {
         max-width: 275px;
         border-radius: 0.5rem 0.5rem 0rem 0rem;
-    }
-
-    .header, .body {
-        line-height: 2rem;
-        font-size: 1rem;
-        padding: 0.75rem;
     }
 
     .panel-text {
@@ -184,19 +193,24 @@ h1, h2 {
         border-radius: 0rem 0rem 0.5rem 0.5rem;
     }
 
-    .header {
-        padding-bottom: 0;
+    .header, .body {
+        line-height: 2rem;
+        font-size: 1rem;
     }
 
+    .header {
+        padding: 1rem;
+    }
+    
+    .body {
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    
 }
 
 @media (max-width: 750px) {
 
-    .panel-image {
-        max-width: 300px;
-    } 
-
-    .panel-text {
+    .panel-image, .panel-text {
         max-width: 300px;
     } 
    

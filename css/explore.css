@@ -14,8 +14,14 @@
     margin: auto;
 }
 
-h1 {
+h1, .explore-image, .explore-text {
     align-self: center;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 2rem
+}
+
+h1 {
     font-family: "Noto Serif", Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     color: #474747;
@@ -23,33 +29,23 @@ h1 {
     background-color: rgba(255, 0, 0, 0.25);
     padding: 2rem;
     border-radius: 1rem;
-    width: 90%;
-    max-width: 1000px;
-    margin: 2rem 0rem 2rem 0rem;
+    margin-bottom: 0rem
 }
 
 .explore-image {
-    align-self: center;
     object-fit: cover;
-    width: 90%;
-    height: 400px;
+    height: 300px;
     border-radius: 1rem;
-    max-width: 1000px;
 }
 
 .explore-text {
-    align-self: center;
     font-family: "Noto Sans";
     font-size: 1.125rem;
     line-height: 2.5rem;
     color: #474747;
     background-color: rgba(255, 0, 0, 0.25);
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
     border-radius: 1rem;
-    width: 90%;
-    max-width: 1000px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .explore-text-bold {
@@ -59,28 +55,27 @@ h1 {
 
 @media (max-width: 1300px) {
 
+    h1, .explore-image, .explore-text {
+        max-width: 600px;
+        margin-top: 1rem;
+    }
+
     h1 {
         font-size: 1.25rem;
         padding: 1rem;
         border-radius: 0.5rem;
-        margin: 1rem 0rem 1rem 0rem;
-        max-width: 600px;
     }
 
     .explore-image {
         height: 200px;
-        max-width: 600px;
         border-radius: 0.5rem;
     }
 
     .explore-text {
         font-size: 1rem;
         line-height: 2rem;
-        padding: 0.5rem 1rem 0.5rem 1rem;
+        padding: 0rem 1rem 0rem 1rem;
         border-radius: 0.5rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        max-width: 600px;
     }
 
 }

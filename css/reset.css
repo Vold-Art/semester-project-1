@@ -337,6 +337,7 @@ footer {
     width: 100%;
     background: #474747;
     margin-bottom: -1rem;
+    margin-top: 2rem;
 }
 
 ul {
@@ -368,6 +369,11 @@ footer a {
     .footer-nav {
         font-size: 1.25rem;
     }
+
+    footer {
+        margin-top: 1rem;
+    }
+
 }
 
 @media (max-width: 750px) {
