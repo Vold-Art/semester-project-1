@@ -11,11 +11,7 @@ body {
     background: #E9E9E9;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
+a:hover, a:active {
     text-decoration: underline;
 }
 
@@ -236,32 +232,32 @@ nav a {
 }
 
 #explore-icon {
-    font-size: 3rem;
     color: #FF0000;
+    font-size: 3rem;
     padding-left: 3.1875rem;
 }
 
 #exhibition-icon {
-    font-size: 3rem;
     color: #00C2FC;
+    font-size: 3rem;
     padding-left: 3.1875rem;
 }
 
 #special-icon {
-    font-size: 3rem;
     color: #FF8F00;
+    font-size: 3rem;
     padding-left: 3.1875rem;
 }
 
 #visit-icon {
-    font-size: 3rem;
     color: #8CCE00;
+    font-size: 3rem;
     padding-left: 3.1875rem;
 }
 
 #involved-icon {
-    font-size: 3rem;
     color: #BF3FFF;
+    font-size: 3rem;
     padding-left: 3.1875rem;
 }
 
@@ -312,36 +308,24 @@ nav a {
 
 /* Hero Section */
 
-.hero-section {
-    height: 300px;
-}
-
 .hero-image {
     width: 100%;
-    height: 300px;
+    height: 200px;
     object-fit: cover;
     object-position: 100% 40%;
 }
 
 @media (max-width: 1300px) {
 
-    .hero-section {
-        height: 225px;
-    }
-
     .hero-image {
-        height: 225px;
+        height: 150px;
     }
 }
 
 @media (max-width: 750px) {
 
-    .hero-section {
-        height: 150px;
-    }
-
     .hero-image {
-        height: 150px;
+        height: 125px;
     }
 }
 
@@ -365,7 +349,6 @@ footer a {
     font-family: "Noto Serif Display", Georgia, 'Times New Roman', Times, serif;
     color: #FFFFFF;
     text-decoration: none;
-    text-align: center;
 }
 
 .footer-nav {
