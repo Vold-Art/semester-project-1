@@ -194,7 +194,7 @@ nav {
     nav {
         max-width: 350px;
         top: 107.5px;
-        font-size: 1rem;
+        font-size: 1.25rem;
         padding-right: 1.59375rem;
         border-radius: 0rem 0rem 0.5rem 0rem;
     }
@@ -352,6 +352,7 @@ footer {
     bottom: 0;
     width: 100%;
     background: #474747;
+    margin-bottom: -1rem;
 }
 
 ul {
@@ -377,16 +378,12 @@ footer a {
     font-weight: 400;
     letter-spacing: 0.1rem;
     color: #FFFFFF;
-    margin-left: 4rem;
-    margin-right: 4rem;
 }
 
 @media (max-width: 1300px) {
 
     .footer-nav {
-        font-size: 1rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        font-size: 1.25rem;
     }
 }
 
@@ -394,8 +391,6 @@ footer a {
 
     .footer-nav {
         flex-direction: column;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
 }
 
