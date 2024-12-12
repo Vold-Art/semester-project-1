@@ -11,3 +11,4 @@
   `visit/`: Contains the HTML file for "VISIT" page.
   `involved/`: Contains the HTML file for "GET INVOLVED" page.
   `assets/`: A directory that holds assets like images and logos.
+  `README.md`: Readme-file for this project
