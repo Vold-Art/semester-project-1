@@ -18,7 +18,9 @@
 	<body>
 		<header>
 			<input type="checkbox" id="menu-checkbox" />
-			<label for="menu-checkbox"><i class="fa-solid fa-bars"></i></label>
+			<label for="menu-checkbox" aria-label="Open Menu">
+				<i class="fa-solid fa-bars"></i>
+			</label>
 			<nav>
 				<div class="search-bar-mobile-tablet">
 					<form class="search-field-mobile-tablet">
@@ -33,60 +35,70 @@
 						/>
 					</form>
 				</div>
-				<div class="explore">
-					<label id="explore-icon" for="explore-link" aria-label="Explore Icon"
-						><i class="fa-solid fa-magnifying-glass"></i
-					></label>
-					<a id="explore-link" href="../explore/explore.html">EXPLORE</a>
-				</div>
-				<div class="exhibition">
-					<label
-						id="exhibition-icon"
-						for="exhibiton-link"
-						aria-label="Exhibition Spaces Icon"
-						><i class="fa-solid fa-building-columns"></i
-					></label>
-					<a id="exhibition-link" href="../exhibition/exhibition.html"
-						>EXHIBITION SPACES</a
-					>
-				</div>
-				<div class="special">
-					<label
-						id="special-icon"
-						for="special-link"
-						aria-label="Special Events and Exhibitions Icon"
-						><i class="fa-regular fa-star"></i
-					></label>
-					<a id="special-link" href="../special/special.html"
-						>SPECIAL EVENTS AND EXHIBITIONS</a
-					>
-				</div>
-				<div class="visit">
-					<label id="visit-icon" for="visit-link" aria-label="Visit Icon"
-						><i class="fa-regular fa-eye"></i
-					></label>
-					<a id="visit-link" href="../visit/visit.html">VISIT</a>
-				</div>
-				<div class="involved">
-					<label
-						id="involved-icon"
-						for="involved-link"
-						aria-label="Get Involved Icon"
-						><i class="fa-solid fa-flask"></i
-					></label>
-					<a id="involved-link" href="../involved/involved.html"
-						>GET INVOLVED</a
-					>
-				</div>
+				<ul class="nav-list">
+					<li class="explore">
+						<label
+							id="explore-icon"
+							for="explore-link"
+							aria-label="Explore Icon"
+						>
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</label>
+						<a id="explore-link" href="./explore/explore.html">EXPLORE</a>
+					</li>
+					<li class="exhibition">
+						<label
+							id="exhibition-icon"
+							for="exhibition-link"
+							aria-label="Exhibition Spaces Icon"
+						>
+							<i class="fa-solid fa-building-columns"></i>
+						</label>
+						<a id="exhibition-link" href="./exhibition/exhibition.html"
+							>EXHIBITION SPACES</a
+						>
+					</li>
+					<li class="special">
+						<label
+							id="special-icon"
+							for="special-link"
+							aria-label="Special Events and Exhibitions Icon"
+						>
+							<i class="fa-regular fa-star"></i>
+						</label>
+						<a id="special-link" href="./special/special.html"
+							>SPECIAL EVENTS AND EXHIBITIONS</a
+						>
+					</li>
+					<li class="visit">
+						<label id="visit-icon" for="visit-link" aria-label="Visit Icon">
+							<i class="fa-regular fa-eye"></i>
+						</label>
+						<a id="visit-link" href="./visit/visit.html">VISIT</a>
+					</li>
+					<li class="involved">
+						<label
+							id="involved-icon"
+							for="involved-link"
+							aria-label="Get Involved Icon"
+						>
+							<i class="fa-solid fa-flask"></i>
+						</label>
+						<a id="involved-link" href="./involved/involved.html"
+							>GET INVOLVED</a
+						>
+					</li>
+				</ul>
 			</nav>
 			<div class="logo-main">
-				<a href="../index.html"
-					><img
+				<a href="./index.html">
+					<img
 						id="logo-img"
-						src="../assets/logo/logo.png"
+						src="./assets/logo/logo.png"
 						alt="Community Science Museum Logo"
-				/></a>
-				<a id="logo-txt" href="../index.html">Community Science Museum</a>
+					/>
+				</a>
+				<a id="logo-txt" href="./index.html">Community Science Museum</a>
 			</div>
 			<div class="search-bar-desktop">
 				<form class="search-field-desktop">
