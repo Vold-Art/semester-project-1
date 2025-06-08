@@ -1,14 +1,50 @@
-- **Project Title**: `Semester Project 1 - Arnt Helge Vold`
+# Semester Project 1 - Community Science Museum
 
-- **Project Description**: This is my Semester Project to plan, design and code a website for "Community Science Museum" using HTML and CSS.
+Community Science Museum: Semester Project 1 at Noroff FrontEnd Studies.
 
-- **Project Structure**:
-  `index.html`: This is the main HTML file that contains the structure of the web-application.
-  `css/`: A directory that holds the CSS files that is used to style the HTML content.
-  `explore/`: Contains the HTML file for "EXPLORE" page.
-  `exhibition/`: Contains the HTML file for "EXHIBITION SPACES" page.
-  `special/`: Contains the HTML file for "SPECIAL EVENTS AND EXHIBITIONS" page.
-  `visit/`: Contains the HTML file for "VISIT" page.
-  `involved/`: Contains the HTML file for "GET INVOLVED" page.
-  `assets/`: A directory that holds assets like images and logos.
-  `README.md`: Readme-file for this project
+## Description
+
+Our efforts to apply and combine accumulated competence and showcase how we could complete larger projects, either individually or in collaboration with others using HTML and CSS. I chose to work individually. The brief was making a website for an interactive science museum called the Community Science Museum.
+
+## Built With
+
+- HTML
+- CSS
+
+## Getting Started
+
+### Installing
+
+Clone the repo:
+
+```bash
+git clone https://github.com/Vold-Art/semester-project-1.git
+```
+
+```
+No dependencies
+```
+
+### Running
+
+Since this is a static website using only HTML and CSS, you can run it by simply opening the index.html file in your browser:
+
+Option 1:
+
+Open index.html directly in your browser.
+
+Option 2 (recommended for local development):
+
+Use a live server in your code editor (e.g. Live Server extension in VS Code) to serve the files locally.
+
+## Contributing
+
+This project was created as part of a study assignment and is not open for contributions.
+
+## Contact
+
+Arnt Helge Vold
+
+[My Webpage](www.vold-art.com)
+
+[My GitHub Profile](https://github.com/Vold-Art)
